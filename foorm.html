@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма авторизации</title>
+  <link rel="stylesheet" href="frm.css">
+</head>
+<body>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Регистрация</h1>
+    <p>Пожалуйста, заполните эту форму, чтобы создать учётную запись.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Введите Email" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+    <label for="psw-repeat"><b>Повторите пароль</b></label>
+    <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+    <hr>
+    <p><a href="#">Забыли пароль?</a></p>
+    <p>Создавая учетную запись, вы соглашаетесь с нашими <a href="#">Условиями и конфиденциальностью.</a>.</p>
+    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+  </div>
+
+
+  <div class="container signin">
+    <p>У вас уже есть аккаунт? <a href="#">Войдите</a>.</p>
+  </div>
+
+</form>
+</body>
+</html>
